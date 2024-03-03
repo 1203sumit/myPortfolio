@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sumit portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!----this type of fonts we search in google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+
+        nav ul li a:hover {
+
+            color: rgb(153, 153, 226);
+            font-size: medium;
+
+
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+
+
+        }
+
+
+
+        .left {
+            font-size: 1.5rem;
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+
+            margin: 80px 0;
+        }
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font: size 20px;
+        }
+
+        .buttons {
+            padding: 50px 0;
+        }
+
+        .btn {
+
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2pxsolid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+
+
+        }
+
+        .purple {
+            color: rgb(150, 70, 216);
+        }
+
+        #element {
+            color: rgb(150, 70, 216);
+
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 54px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+
+        }
+
+        .verticle-desc {
+            color: grey;
+            width: 150px;
+            font: 9px;
+
+        }
+
+        footer {
+            background-color: hsl(180, 2%, 36%);
+            display: flex;
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+
+        }
+
+        .footer {
+
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Sumit mishra portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href=""> project</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <marquee behavior="scroll" direction="right" bgcolor="red" height="50">Sumit mishra</marquee>
+    <main>
+        <section class="firstsection">
+
+
+
+            <div class="leftsection">
+                <img src="./resources/mypicture.jpg" width="60%" height="40%" alt=""><br> Hi, My name is <span
+                    class="purple">sumit mishra</span><br>and i am a passionate in web devloping... <br><span
+                    id="element"></span>
+
+            </div>
+
+            <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="./resources/sd.png" alt="" height="40%" width="30%">
+
+                <div class="buttons">
+                    <button class="btn">download resume</button>
+
+                    <button class="btn">visit linkdin</button>
+
+                </div>
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+
+
+            <h1> skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./resources/c.jpeg" alt="">
+                    <div class="vertical-title">
+                        <h1> HTML-5</h1>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./resources/c.jpeg" alt="">
+                    <div class="vertical-title">
+
+                        <h1> CSS-3</h1>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./resources/c.jpeg" alt="">
+
+                    <div class="vertical-title">
+
+                        <h1> Java Script</h1>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./resources/c.jpeg" alt="">
+
+                    <div class="vertical-title">
+
+
+                        <h1> c language</h1>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./resources/a.jpeg" alt="">
+                    <div class="vertical-title">
+
+                        <h1> sql ,c++ language</h1>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <section class="secondsection">
+        <h1> Activities during graduation</h1>
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="./resources/a.jpeg" alt="">
+                <div class="vertical-title">
+                    <h1> Participated in hackathon</h1>
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="./resources/a.jpeg" alt="">
+                <div class="vertical-title">
+
+                    <h1> participated in (IT) fests in colleges</h1>
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="./resources/c.jpeg" alt="">
+
+                <div class="vertical-title">
+
+
+                    <h1> Participated in technology seminars, debate competition</h1>
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="./resources/c.jpeg" alt="">
+
+                <div class="vertical-title">
+
+
+                    <h1> community service</h1>
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="./resources/c.jpeg" alt="">
+                <div class="vertical-title">
+
+
+                    <h1>participate in sports</h1>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <form action="#" method="post" class="home-form">
+        <h2>Contact Us</h2>
+        <input type="text" name="your-name" value="" placeholder="Name *" required="" />
+        <br>
+        <input type="email" name="your-email" value="" placeholder="Email *" required="" />
+        <br>
+        <input type="tel" name="phone" value="" placeholder="Phone Number" /></span>
+        <br>
+
+        <input type="text" name="subject" value="" placeholder="Subject" />
+        <br>
+
+        <textarea name="message" cols="40" rows="6" placeholder="Your Message"></textarea>
+        <br>
+
+        <input type="submit" value="Send Message" />
+    </form>
+    <div align="center">
+
+        &#169;sumitmishraportfolio.com|all rights are reserved
+
+    </div>
+</body>
+
+</html>
